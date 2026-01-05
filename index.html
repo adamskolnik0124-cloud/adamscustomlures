@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AdamsCustomLures | Handmade Fishing Lures</title>
+    <style>
+        :root {
+            --primary-black: #111111;
+            --accent-blue: #1e90ff;
+            --white: #ffffff;
+            --gray: #f4f4f4;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: var(--gray);
+            color: var(--primary-black);
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: var(--primary-black);
+            color: var(--white);
+            text-align: center;
+            padding: 50px 20px;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 3em;
+        }
+
+        header p {
+            font-size: 1.2em;
+            margin: 10px 0;
+        }
+
+        section {
+            max-width: 1000px;
+            margin: 40px auto;
+            padding: 30px;
+            background-color: var(--white);
+            border-radius: 10px;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+        }
+
+        h2 {
+            color: var(--primary-black);
+            border-bottom: 3px solid var(--accent-blue);
+            display: inline-block;
+            padding-bottom: 5px;
+            margin-top: 0;
+        }
+
+        .lure-type {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            margin: 25px 0;
+            padding: 20px;
+            background-color: var(--gray);
+            border-radius: 10px;
+        }
+
+        .lure-type img {
+            width: 200px;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 8px;
+            margin-right: 20px;
+        }
+
+        .lure-type div {
+            flex: 1;
+        }
+
+        .lure-type h3 {
+            margin-top: 0;
+            color: var(--accent-blue);
+        }
+
+        .order-btn {
+            display: inline-block;
+            margin: 30px 0;
+            padding: 15px 30px;
+            background-color: var(--accent-blue);
+            color: var(--white);
+            font-size: 1.2em;
+            text-decoration: none;
+            border-radius: 12px;
+            transition: all 0.3s ease;
+        }
+
+        .order-btn:hover {
+            background-color: #0f5cbf;
+            transform: scale(1.05);
+        }
+
+        footer {
+            text-align: center;
+            padding: 25px 0;
+            background-color: var(--primary-black);
+            color: var(--white);
+            margin-top: 40px;
+            font-size: 0.9em;
+        }
+
+        /* Responsive */
+        @media(max-width:768px){
+            .lure-type {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .lure-type img {
+                margin: 0 0 15px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>AdamsCustomLures</h1>
+        <p>Handmade fishing lures built for serious anglers who want more bites.</p>
+        <p>Order via TikTok DM</p>
+    </header>
+
+    <section>
+        <h2>About the Lures</h2>
+        <p>Dive into AdamsCustomJigs, crafted to catch the eye—and the fish! Each jig is designed with precision, vibrant colors, and unique shapes to make your fishing adventures more exciting. Whether you’re a seasoned angler or just starting out, these jigs are built to stand out and perform. Made by anglers for anglers.</p>
+        <p>Custom lures can be made or already made ones would be perfect. I can also help if you tell me what kind of water condition you are fishing to pick the perfect colors of our jigs.</p>
+
+        <h2>Lures Available</h2>
+
+        <div class="lure-type">
+            <img src="already-made.jpg" alt="Already Made Lure">
+            <div>
+                <h3>Already Made</h3>
+                <p>Perfect if you don’t know what you want and just want to get out and fish with colors that you love.</p>
+            </div>
+        </div>
+
+        <div class="lure-type">
+            <img src="custom-lure.jpg" alt="Custom Lure">
+            <div>
+                <h3>Custom</h3>
+                <p>Fun custom lures that will be exactly what you want for a 1-of-1 bass jig to catch those trophy bass.</p>
+            </div>
+        </div>
+
+        <h2>Order / Contact</h2>
+        <p>All orders are taken through TikTok DMs. Click the button below and send a message with what you want.</p>
+        <a class="order-btn" href="https://www.tiktok.com/@AdamsCustomLures" target="_blank">DM @AdamsCustomLures on TikTok</a>
+    </section>
+
+    <footer>
+        © 2026 AdamsCustomLures | Handmade fishing lures
+    </footer>
+
+</body>
+</html>
